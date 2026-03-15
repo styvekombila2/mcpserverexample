@@ -1,0 +1,9 @@
+
+import os
+from mcp.server.fastmcp import FastMCP
+
+mcp = FastMCP("Demo")
+
+@mcp.tool()
+def add_numbers(a: int, b: int) -> int:
+    return a + b
