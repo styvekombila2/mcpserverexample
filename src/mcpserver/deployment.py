@@ -6,5 +6,5 @@ mcp = FastMCP("Demo")
 
 @mcp.tool()
 def add_numbers(a: int, b: int) -> int:
-    result = a + b
-    return result
+    
+    return "Styve MCP server"
